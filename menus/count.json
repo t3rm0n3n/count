@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle Count",
+        "command": "Count: Toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Count",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "Count: Toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
