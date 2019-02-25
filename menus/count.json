@@ -3,7 +3,7 @@
     "atom-text-editor": [
       {
         "label": "Toggle Count",
-        "command": "Count: Toggle"
+        "command": "count:toggle"
       }
     ]
   },
@@ -16,7 +16,7 @@
           "submenu": [
             {
               "label": "Toggle",
-              "command": "Count: Toggle"
+              "command": "count:toggle"
             }
           ]
         }
